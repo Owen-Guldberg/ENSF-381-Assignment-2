@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/* Header and Nav */
 header {
     background-color: #333;
     padding: 0;
@@ -38,6 +39,7 @@ nav a {
     padding: 10px 20px;
 }
 
+/* Home Page */
 .about-us {
     display: flex;
     flex-direction: column;
@@ -75,7 +77,6 @@ footer {
 }
 
 /* Product Page */
-
 .product-list {
     background-color: #ddd;
     padding: 20px;
@@ -126,7 +127,7 @@ footer {
     border-radius: 5px;
     border: none;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 @media screen and (min-width: 769px) {
@@ -148,4 +149,26 @@ footer {
         padding: 10px;
         margin: 10px;
     }
+}
+
+/* Contact Page */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-method {
+    background-color: #ddd;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.contact-method a:hover{
+    color:#007BFF;
 }
